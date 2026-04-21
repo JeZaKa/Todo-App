@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import {Text, View } from 'react-native';
+import TodoScreen from './src/screens/TodoScreen';
 import "./global.css";
 
 export default function App() {
   return (
-    <View >
-      <Text className='text-2xl font-bold'> up App.tsx to start working on your app!</Text>
+    <>
+      <TodoScreen />
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 
